@@ -14,7 +14,10 @@ function compareValues(sum,luckyNumber){
  function checkBirthDateIsLucky(){
   var birthDate= dateOfBirth.value ;
   var sum = calculateSum(birthDate);
+  if(sum&&birthDate)
   compareValues(sum,luckyNumber.value);
+else
+outputBox.innerText="Please enter both the fields"
 }
 
  function calculateSum(birthDate){
