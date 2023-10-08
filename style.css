@@ -10,11 +10,12 @@ body{
 h1{
     color:var(--primary-color);
     text-align: center;
+    padding:2rem;
 }
 .container{
     display:flex;
     flex-direction: column;
-    width:80%;
+    width:50%;
     margin:auto;
 
 }
@@ -26,7 +27,9 @@ label{
 }
 
 input{
+    display:block;
     text-align: center;
+    width:100%;
     margin:1rem 0.5rem;
     border-color:var(--primary-color) ;
     border-radius: 0.5rem;
